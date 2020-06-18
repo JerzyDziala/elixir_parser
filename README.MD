@@ -1,7 +1,9 @@
 This is a part of a bigger program that was used to analyse and transform
 a big number of ecto schemas in a large elixir codebase.
 
-you can play with it in repl using the command: stack repl
+you can play with it in repl using the command: 
+    
+    stack repl
 
 then you can use the parsing functions to turn strings into elixir ASTs
 

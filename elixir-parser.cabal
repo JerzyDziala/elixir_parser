@@ -1,0 +1,40 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 477fa5655fcad11bd19a58718e946064e6ae37ed678b592253e31239950e35ae
+
+name:           elixir-parser
+version:        0.0.1.0
+homepage:       https://github.com/JerzyDziala/elixir_parser#readme
+bug-reports:    https://github.com/JerzyDziala/elixir_parser/issues
+author:         Jerzy Dziala
+maintainer:     jerzy.dziala@gmail.com
+copyright:      2020 Jerzy Dziala
+license:        BSD3
+build-type:     Simple
+
+source-repository head
+  type: git
+  location: https://github.com/JerzyDziala/elixir_parser
+
+library
+  exposed-modules:
+      Parser
+  other-modules:
+      Annotations
+      AST
+      Combinators
+      Result
+      Utils
+      Paths_elixir_parser
+  hs-source-dirs:
+      src
+      src/tree
+      src/parser
+      src/convenience
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010

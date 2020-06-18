@@ -1,0 +1,21 @@
+name:                elixir-parser
+version:             0.0.1.0
+github:              "JerzyDziala/elixir_parser"
+license:             BSD3
+author:              "Jerzy Dziala"
+maintainer:          "jerzy.dziala@gmail.com"
+copyright:           "2020 Jerzy Dziala"
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs:
+  - src
+  - src/tree
+  - src/parser
+  - src/convenience
+  - src/merging
+  - src/generation
+  exposed-modules:
+  - Parser
